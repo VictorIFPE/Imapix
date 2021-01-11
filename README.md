@@ -21,5 +21,5 @@
 
 ## Orientador(a):
 
-* Prof.Liliane Alves do Nascimento Sales
+* Prof. Liliane Alves do Nascimento Sales
 
