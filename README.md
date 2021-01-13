@@ -17,7 +17,7 @@
 * herica carolina suassuna virgolino
 * Gabriel Barros Teixeira;
 * Wellington José da Silva Souza
-* 
+* Enok da Silva Tavares
 
 ## Orientador(a):
 
