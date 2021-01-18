@@ -5,7 +5,7 @@
   font-family: Arial,sans-serif;
 }
 body{
-background-image: url("img/imapix.png");
+background-image: url("../img/ima.png");
 background-repeat: no-repeat;
 background-size: 100%;
 }
@@ -82,7 +82,7 @@ input:not([type="checkbox"]){
   width: 95%;
   margin-top: 4px;
   padding: 10px;    
-  border: 1px solid #b2b2b2;
+  border: 1px solid #F0F8FF;
   
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -106,7 +106,6 @@ input[type="submit"]{
   border: 1px solid #fff;   
   margin-bottom: 10px;  
   text-shadow: 0 1px 1px #333;
- 
   -webkit-border-radius: 5px;
   border-radius: 5px;
  
@@ -126,6 +125,29 @@ input[type="submit"]:hover{
   -webkit-border-radius: 0 0  5px 5px;
   border-radius: 0 0  5px 5px;
 }
+.link1{
+  position: absolute;
+  color: #7f7c7c;
+  width: 340px;
+  font-size: 16px;
+  text-align: right;
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+  margin-top: 75px;
+}
+.link1 a {
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: rgb(29, 162, 193);
+  margin-left: 10px;
+  border: 1px solid #cbd518;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;  
+ 
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s  linear;
+}
 .link a {
   font-weight: bold;
   background: #f7f8f1;
@@ -133,12 +155,16 @@ input[type="submit"]:hover{
   color: rgb(29, 162, 193);
   margin-left: 10px;
   border: 1px solid #cbd518;
- 
   -webkit-border-radius: 4px;
   border-radius: 4px;  
  
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s  linear;
+}
+.link1 a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
 }
 .link a:hover {
   color: #39bfd7;
@@ -166,6 +192,7 @@ input[type="submit"]:hover{
   animation-duration: 0.5s;
   animation-timing-function: ease;
   animation-fill-mode: both;
+  
 }
 
 /* Efeito ao clicar no botão ( Ir para Login ) */
@@ -184,7 +211,9 @@ input[type="submit"]:hover{
 #paralogin:target ~ .content #cadastro{
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
+  transform: translate(-50%, -50%);
 }
+
 
 /*fadeInLeft*/
 @-webkit-keyframes fadeInLeft {
